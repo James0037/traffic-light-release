@@ -1,0 +1,21 @@
+{
+  "app_name": "Traffic Light",
+  "latest_version": "2.1.0",
+  "version_code": 210,
+  "release_date": "2026-06-24",
+  "channel": "stable",
+  "minimum_supported_version": "2.0.0",
+  "force_update": false,
+  "package_type": "zip",
+  "download_url": "https://james0037.github.io/traffic-light-release/downloads/Traffic_Light_v2.1.0.zip",
+  "sha256": "1e1dd5447d204306f00c3745b05e38f926982a48e1e6a6397332fcecf656852b",
+  "file_size": 69314666,
+  "release_notes": [
+    "新增自动检查更新功能",
+    "新增公网官网发布端",
+    "新增报告抽帧图片导出功能",
+    "优化 FFmpeg 或其他抽帧方案"
+  ],
+  "homepage_url": "https://james0037.github.io/traffic-light-release/",
+  "manual_download_url": "https://james0037.github.io/traffic-light-release/downloads/"
+}
