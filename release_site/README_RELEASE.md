@@ -266,8 +266,8 @@ python scripts\generate_sha256.py downloads\Traffic_Light_v2.1.0.zip
 
 ```text
 File: downloads\Traffic_Light_v2.1.0.zip
-Size: 69314666 bytes (66.10 MB)
-SHA256: 1e1dd5447d204306f00c3745b05e38f926982a48e1e6a6397332fcecf656852b
+Size: 69314183 bytes (66.10 MB)
+SHA256: 0f383ffb19828ebc5dca60cf2a394ecedc57ffcff2781bb1b9e7888e432b7bee
 ```
 
 脚本支持中文路径和空格路径。如果文件路径包含空格，请用英文双引号包起来：
@@ -292,7 +292,7 @@ python scripts\generate_sha256.py "downloads\Traffic Light V2.1 测试包.zip"
   "package_type": "zip",
   "download_url": "https://你的公网域名/downloads/Traffic_Light_v2.1.0.zip",
   "sha256": "真实 SHA256",
-  "file_size": 69314666,
+  "file_size": 69314183,
   "release_notes": ["更新说明"],
   "homepage_url": "https://你的公网域名/",
   "manual_download_url": "https://你的公网域名/downloads/"
