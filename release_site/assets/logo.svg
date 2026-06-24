@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="title desc">
+  <title id="title">Traffic Light 标志</title>
+  <desc id="desc">三色信号灯与视频分析线框组合的简洁图标</desc>
+  <rect x="20" y="10" width="56" height="76" rx="8" fill="#101b26"/>
+  <rect x="26" y="16" width="44" height="64" rx="5" fill="#1d2d3d" stroke="#52697c" stroke-width="2"/>
+  <circle cx="48" cy="28" r="10" fill="#c54040"/>
+  <circle cx="48" cy="28" r="5" fill="#ff6a5f"/>
+  <circle cx="48" cy="48" r="10" fill="#d88a00"/>
+  <circle cx="48" cy="48" r="5" fill="#ffd35a"/>
+  <circle cx="48" cy="68" r="10" fill="#15a06b"/>
+  <circle cx="48" cy="68" r="5" fill="#42e6a1"/>
+  <path d="M76 32h10M76 48h10M76 64h10" stroke="#00a7c7" stroke-width="4" stroke-linecap="square"/>
+  <path d="M10 48h10" stroke="#0a66c2" stroke-width="4" stroke-linecap="square"/>
+</svg>

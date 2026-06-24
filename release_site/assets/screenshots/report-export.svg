@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">报告导出示意图</title>
+  <desc id="desc">包含抽帧图片和分析说明的图文报告示意</desc>
+  <rect width="720" height="420" fill="#eef4f8"/>
+  <rect x="66" y="30" width="410" height="360" fill="#fff" stroke="#b8c9d8"/>
+  <rect x="98" y="68" width="300" height="18" fill="#142536"/>
+  <rect x="98" y="104" width="330" height="90" fill="#e7f2fb" stroke="#c1d4e2"/>
+  <rect x="98" y="216" width="330" height="12" fill="#d6e2eb"/>
+  <rect x="98" y="244" width="280" height="12" fill="#d6e2eb"/>
+  <rect x="98" y="272" width="330" height="12" fill="#d6e2eb"/>
+  <rect x="98" y="314" width="150" height="38" fill="#0a66c2"/>
+  <text x="126" y="337" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">导出报告</text>
+  <rect x="512" y="90" width="142" height="240" fill="#142536"/>
+  <rect x="532" y="118" width="102" height="58" fill="#d9edf7" stroke="#8fb0c4"/>
+  <rect x="532" y="196" width="102" height="58" fill="#d9edf7" stroke="#8fb0c4"/>
+  <rect x="532" y="274" width="102" height="28" fill="#15a06b"/>
+  <text x="540" y="294" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="13">图片已关联</text>
+  <text x="112" y="178" fill="#5f6d7a" font-family="Segoe UI, Arial, sans-serif" font-size="14">抽帧图片</text>
+  <text x="98" y="48" fill="#142232" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">分析报告</text>
+</svg>

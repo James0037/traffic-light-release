@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">主工作台示意图</title>
+  <desc id="desc">任务配置、视频预览和分析结果三栏式工作台示意</desc>
+  <rect width="720" height="420" fill="#eef4f8"/>
+  <rect x="24" y="24" width="672" height="372" fill="#fff" stroke="#b8c9d8"/>
+  <rect x="24" y="24" width="672" height="46" fill="#142536"/>
+  <text x="44" y="54" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">任务工作台</text>
+  <rect x="44" y="92" width="168" height="278" fill="#f8fafc" stroke="#c9d8e4"/>
+  <text x="60" y="120" fill="#142232" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">任务配置</text>
+  <rect x="60" y="142" width="136" height="28" fill="#e7f2fb" stroke="#b7ccd9"/>
+  <rect x="60" y="184" width="136" height="28" fill="#fff" stroke="#b7ccd9"/>
+  <rect x="60" y="226" width="136" height="28" fill="#fff" stroke="#b7ccd9"/>
+  <rect x="60" y="282" width="60" height="30" fill="#0a66c2"/>
+  <rect x="136" y="282" width="60" height="30" fill="#fff" stroke="#b7ccd9"/>
+  <rect x="236" y="92" width="260" height="164" fill="#0f1f2d" stroke="#7590a5"/>
+  <polygon points="334,136 334,212 398,174" fill="#00a7c7"/>
+  <rect x="236" y="278" width="260" height="92" fill="#fff" stroke="#c9d8e4"/>
+  <line x1="254" y1="306" x2="470" y2="306" stroke="#d6e2eb"/>
+  <line x1="254" y1="334" x2="452" y2="334" stroke="#d6e2eb"/>
+  <rect x="520" y="92" width="156" height="278" fill="#fff" stroke="#c9d8e4"/>
+  <text x="538" y="120" fill="#142232" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">分析结果</text>
+  <rect x="538" y="144" width="120" height="40" fill="#eef6fb" stroke="#c9d8e4"/>
+  <rect x="538" y="198" width="120" height="40" fill="#eef6fb" stroke="#c9d8e4"/>
+  <rect x="538" y="252" width="120" height="40" fill="#eef6fb" stroke="#c9d8e4"/>
+</svg>

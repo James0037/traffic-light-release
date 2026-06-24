@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">抽帧保存示意图</title>
+  <desc id="desc">视频时间轴和关键帧缩略图示意</desc>
+  <rect width="720" height="420" fill="#eef4f8"/>
+  <rect x="36" y="34" width="648" height="352" fill="#fff" stroke="#b8c9d8"/>
+  <text x="58" y="72" fill="#142232" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">抽帧照片保存</text>
+  <rect x="58" y="98" width="604" height="154" fill="#0f1f2d" stroke="#617f96"/>
+  <line x1="92" y1="284" x2="628" y2="284" stroke="#8fa6b8" stroke-width="6"/>
+  <line x1="92" y1="284" x2="342" y2="284" stroke="#0a66c2" stroke-width="6"/>
+  <circle cx="342" cy="284" r="12" fill="#00a7c7"/>
+  <text x="58" y="318" fill="#5f6d7a" font-family="Segoe UI, Arial, sans-serif" font-size="14">00:00:25.875</text>
+  <g>
+    <rect x="58" y="334" width="116" height="34" fill="#d9edf7" stroke="#a6bdcc"/>
+    <rect x="188" y="334" width="116" height="34" fill="#d9edf7" stroke="#a6bdcc"/>
+    <rect x="318" y="334" width="116" height="34" fill="#d9edf7" stroke="#a6bdcc"/>
+    <rect x="448" y="334" width="116" height="34" fill="#d9edf7" stroke="#a6bdcc"/>
+  </g>
+  <path d="M256 138l70 37-70 37z" fill="#00a7c7"/>
+  <text x="450" y="140" fill="#c9d8e7" font-family="Segoe UI, Arial, sans-serif" font-size="14">按时间点 / 时间段抽帧</text>
+  <text x="450" y="168" fill="#c9d8e7" font-family="Segoe UI, Arial, sans-serif" font-size="14">保存关键画面</text>
+</svg>

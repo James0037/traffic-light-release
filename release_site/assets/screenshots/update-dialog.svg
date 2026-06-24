@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">自动更新示意图</title>
+  <desc id="desc">发现新版本、更新说明、下载进度和 SHA256 校验示意</desc>
+  <rect width="720" height="420" fill="#eef4f8"/>
+  <rect x="94" y="58" width="532" height="304" fill="#fff" stroke="#a9bdcd"/>
+  <rect x="94" y="58" width="532" height="46" fill="#142536"/>
+  <text x="118" y="87" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">发现新版本</text>
+  <text x="124" y="136" fill="#142232" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Traffic Light V2.1.0</text>
+  <rect x="124" y="162" width="472" height="1" fill="#d6e2eb"/>
+  <text x="124" y="196" fill="#5f6d7a" font-family="Segoe UI, Arial, sans-serif" font-size="14">下载地址：https://james0037.github.io/...</text>
+  <text x="124" y="226" fill="#5f6d7a" font-family="Segoe UI, Arial, sans-serif" font-size="14">文件大小：66.1 MB</text>
+  <text x="124" y="256" fill="#5f6d7a" font-family="Segoe UI, Arial, sans-serif" font-size="14">SHA256：校验通过后提示安装或打开目录</text>
+  <rect x="124" y="288" width="472" height="16" fill="#d7e3ed"/>
+  <rect x="124" y="288" width="346" height="16" fill="#0a66c2"/>
+  <rect x="370" y="326" width="100" height="30" fill="#fff" stroke="#a9bdcd"/>
+  <rect x="488" y="326" width="108" height="30" fill="#0a66c2"/>
+  <text x="398" y="346" fill="#142232" font-family="Segoe UI, Arial, sans-serif" font-size="13">稍后</text>
+  <text x="514" y="346" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">立即升级</text>
+</svg>

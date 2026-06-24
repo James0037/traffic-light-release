@@ -3,72 +3,303 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Traffic Light 官方下载页，提供 V2.1.0 版本下载、功能说明、更新内容和发布时间。">
+  <meta name="description" content="Traffic Light 是一款面向视频流图像分析、抽帧记录、任务管理和图文报告导出的专业桌面软件。">
   <title>Traffic Light - 官方下载</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="wrap hero">
-      <div class="hero-text">
-        <p class="eyebrow">官方下载</p>
+    <nav class="nav wrap" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="Traffic Light 官网首页">
+        <img src="assets/logo.svg" alt="" width="36" height="36">
+        <span>Traffic Light</span>
+      </a>
+      <div class="nav-links">
+        <a href="#product">产品介绍</a>
+        <a href="#features">核心功能</a>
+        <a href="#workflow">使用流程</a>
+        <a href="#scenes">应用场景</a>
+        <a href="#release">更新日志</a>
+      </div>
+      <a class="nav-download" href="downloads/Traffic_Light_v2.1.0.zip">下载</a>
+    </nav>
+
+    <section id="top" class="hero wrap">
+      <div class="hero-copy">
+        <p class="eyebrow">视频分析 · 抽帧记录 · 报告导出</p>
         <h1>Traffic Light</h1>
-        <p class="version">当前版本：V2.1.0</p>
-        <p class="subtitle">Traffic Light 是一款用于视频分析、抽帧、报告导出和任务管理的软件。</p>
-        <a class="button" href="downloads/Traffic_Light_v2.1.0.zip">下载最新版</a>
+        <p class="hero-subtitle">视频分析、抽帧记录与报告导出的专业桌面工具</p>
+        <p class="hero-text">
+          Traffic Light 面向工程现场、视频巡检和图像分析场景，帮助用户从视频资料中快速定位关键画面，
+          完成抽帧保存、结果记录和可追溯报告整理。
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="downloads/Traffic_Light_v2.1.0.zip">下载最新版</a>
+          <a class="button secondary" href="#release">查看更新说明</a>
+        </div>
+        <dl class="hero-facts" aria-label="版本信息">
+          <div><dt>当前版本</dt><dd>V2.1.0</dd></div>
+          <div><dt>下载包</dt><dd>66.1 MB</dd></div>
+          <div><dt>发布通道</dt><dd>Stable</dd></div>
+        </dl>
       </div>
-      <div class="release-card" aria-label="版本信息">
-        <span>Stable Release</span>
-        <strong>V2.1.0</strong>
-        <small>发布时间：2026-06-24</small>
+      <div class="hero-visual">
+        <img src="assets/hero-dashboard.svg" alt="Traffic Light 软件工作台示意图">
       </div>
-    </div>
+    </section>
   </header>
 
-  <main class="wrap">
-    <section>
-      <div class="section-title">
-        <p>Features</p>
-        <h2>主要功能</h2>
-      </div>
-      <ul class="feature-grid">
-        <li>视频任务分析</li>
-        <li>抽帧照片保存</li>
-        <li>分析报告导出</li>
-        <li>自动检查更新</li>
-        <li>官网下载升级</li>
-      </ul>
-    </section>
-
-    <section>
-      <div class="section-title">
-        <p>Release Notes</p>
-        <h2>V2.1.0 更新内容</h2>
-      </div>
-      <ul class="update-list">
-        <li>新增自动检查更新功能</li>
-        <li>新增公网官网发布端</li>
-        <li>新增报告抽帧图片导出功能</li>
-        <li>优化 FFmpeg 或其他抽帧方案</li>
-      </ul>
-    </section>
-
-    <section class="download-panel">
-      <div>
-        <div class="section-title">
-          <p>Download</p>
-          <h2>下载最新版</h2>
+  <main>
+    <section id="product" class="section section-intro">
+      <div class="wrap intro-grid">
+        <div>
+          <p class="eyebrow">Product Positioning</p>
+          <h2>不是播放器，而是视频分析与报告生成工具</h2>
         </div>
-        <p>下载包用于安装或升级 Traffic Light V2.1.0。客户端也可以通过官网发布端自动检查更新。</p>
+        <p>
+          Traffic Light 用于处理本地视频、实时视频流和抽帧图片资料。它把视频预览、关键帧保存、
+          分析任务管理、结果记录和报告导出放在同一工作流中，适合需要整理现场影像、复盘工程过程、
+          记录设备状态和归档分析结果的使用者。
+        </p>
       </div>
-      <a class="button panel-button" href="downloads/Traffic_Light_v2.1.0.zip">下载最新版</a>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Problems Solved</p>
+          <h2>把零散视频资料变成可追溯的分析记录</h2>
+        </div>
+        <div class="value-grid">
+          <article class="value-card">
+            <span class="card-index">01</span>
+            <h3>视频信息难整理</h3>
+            <p>将视频源、抽帧规则、分析结果和任务状态放在同一个工作台，减少反复切换工具。</p>
+          </article>
+          <article class="value-card">
+            <span class="card-index">02</span>
+            <h3>关键帧难追溯</h3>
+            <p>按时间点或时间段抽帧，保存关键画面，并保留与任务结果对应的文件路径。</p>
+          </article>
+          <article class="value-card">
+            <span class="card-index">03</span>
+            <h3>分析记录不完整</h3>
+            <p>分析结果按任务归档，报告中可自动插入抽帧图片，便于复核、移交和留档。</p>
+          </article>
+          <article class="value-card">
+            <span class="card-index">04</span>
+            <h3>版本维护不方便</h3>
+            <p>客户端可读取官网 update.json，下载升级包并执行 SHA256 校验，降低升级风险。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section muted-section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Core Capabilities</p>
+          <h2>围绕视频任务处理的核心能力</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-icon">◆</span>
+            <h3>视频任务分析</h3>
+            <p>面向本地视频和实时流建立分析任务，记录输入源、状态、成功失败数量和结果路径。</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon">▶</span>
+            <h3>本地视频预览</h3>
+            <p>在工作台中预览视频、查看时间位置，辅助选择抽帧时间点或时间段。</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon">▦</span>
+            <h3>抽帧照片保存</h3>
+            <p>支持按固定间隔、指定时间点和指定时间段抽帧，关键画面保存到任务目录。</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon">≡</span>
+            <h3>分析结果记录</h3>
+            <p>将每次分析的文本结果、视频时间、图片路径和任务状态写入可追溯记录。</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon">□</span>
+            <h3>报告导出</h3>
+            <p>导出包含抽帧图片和分析说明的图文报告，便于工程复盘和资料归档。</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon">↻</span>
+            <h3>自动检查更新</h3>
+            <p>读取公网 update.json，展示版本说明、下载包大小和 SHA256 校验信息。</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon">⌂</span>
+            <h3>本地化部署</h3>
+            <p>桌面端运行，配置、日志、结果和升级包保存在本机目录，便于现场使用。</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon">✓</span>
+            <h3>便携运行</h3>
+            <p>提供压缩包发布方式，适合安装受限或需要临时测试的电脑环境。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="workflow" class="section">
+      <div class="wrap split-layout">
+        <div>
+          <p class="eyebrow">Workflow</p>
+          <h2>从视频导入到报告输出的六步流程</h2>
+          <p class="section-copy">
+            Traffic Light 将视频资料整理成可执行任务，用户可以先预览定位，再抽帧、分析、记录并导出报告。
+          </p>
+        </div>
+        <img class="workflow-image" src="assets/workflow.svg" alt="Traffic Light 使用流程图">
+      </div>
+    </section>
+
+    <section id="scenes" class="section muted-section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Application Scenarios</p>
+          <h2>适用于需要视频资料处理和结果归档的现场</h2>
+        </div>
+        <div class="scene-grid">
+          <article><h3>工程运维巡检</h3><p>整理巡检视频，保留关键设备画面和异常记录。</p></article>
+          <article><h3>设备运行观察</h3><p>从运行视频中抽取关键时刻，用于状态复盘和问题定位。</p></article>
+          <article><h3>项目现场复盘</h3><p>把现场影像拆解成图片和文字记录，形成可交付资料。</p></article>
+          <article><h3>过程记录归档</h3><p>保存视频证据、操作过程和分析结论，便于后续查阅。</p></article>
+          <article><h3>交通与园区视频</h3><p>处理交通、园区、厂区等场景下的连续视频资料。</p></article>
+          <article><h3>电力与光伏现场</h3><p>对设备、区域和运行状态影像进行抽帧、记录与报告化。</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Interface Preview</p>
+          <h2>软件界面与功能示意</h2>
+        </div>
+        <div class="screenshot-grid">
+          <figure>
+            <img src="assets/screenshots/main-workbench.svg" alt="主工作台界面示意图">
+            <figcaption>主工作台：任务配置、视频预览和分析输出集中展示。</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/frame-capture.svg" alt="抽帧保存界面示意图">
+            <figcaption>抽帧保存：按时间点或时间段生成关键帧缩略图。</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/report-export.svg" alt="报告导出界面示意图">
+            <figcaption>报告导出：分析说明与抽帧图片组合成图文记录。</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/screenshots/update-dialog.svg" alt="自动更新弹窗示意图">
+            <figcaption>自动更新：显示版本、下载包大小、说明和校验信息。</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="release" class="section release-section">
+      <div class="wrap release-grid">
+        <div>
+          <p class="eyebrow">Release Notes</p>
+          <h2>Traffic Light V2.1.0</h2>
+          <p class="section-copy">发布时间：2026-06-24。当前版本通过 GitHub Pages 发布端提供下载和自动更新检查。</p>
+        </div>
+        <div class="release-panel">
+          <ul>
+            <li>新增自动检查更新功能</li>
+            <li>新增公网官网发布端</li>
+            <li>新增报告抽帧图片导出功能</li>
+            <li>优化 FFmpeg 或其他抽帧方案</li>
+          </ul>
+          <div class="checksum">
+            <span>下载包大小：66.1 MB</span>
+            <span>SHA256：0f383ffb19828ebc5dca60cf2a394ecedc57ffcff2781bb1b9e7888e432b7bee</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="section download-section">
+      <div class="wrap download-grid">
+        <div>
+          <p class="eyebrow">Download</p>
+          <h2>下载 Traffic Light V2.1.0</h2>
+          <p>
+            下载包包含当前稳定版程序。下载后按发布包说明运行或安装；软件内也可在
+            “参数设置 > 运行维护 > 软件更新”中检查新版本。
+          </p>
+          <dl class="download-meta">
+            <div><dt>当前版本</dt><dd>V2.1.0</dd></div>
+            <div><dt>文件大小</dt><dd>66.1 MB</dd></div>
+            <div><dt>系统要求</dt><dd>Windows 桌面环境</dd></div>
+            <div><dt>更新文件</dt><dd><a href="releases/latest/update.json">releases/latest/update.json</a></dd></div>
+          </dl>
+        </div>
+        <div class="download-card">
+          <strong>Traffic_Light_v2.1.0.zip</strong>
+          <span>官网发布包 · Stable</span>
+          <a class="button primary full" href="downloads/Traffic_Light_v2.1.0.zip">下载最新版</a>
+          <a class="text-link" href="https://james0037.github.io/traffic-light-release/releases/latest/update.json">查看 update.json</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">FAQ</p>
+          <h2>常见问题</h2>
+        </div>
+        <div class="faq-grid">
+          <details>
+            <summary>下载后无法运行怎么办？</summary>
+            <p>请确认文件已完整下载，并根据发布包内说明运行。若系统拦截未知来源程序，需要在 Windows 安全提示中确认来源后再运行。</p>
+          </details>
+          <details>
+            <summary>如何检查更新？</summary>
+            <p>进入软件“参数设置 > 运行维护 > 软件更新”，使用默认官网地址检查更新即可。</p>
+          </details>
+          <details>
+            <summary>报告中的抽帧图片保存在哪里？</summary>
+            <p>抽帧图片和报告资产会保存在任务结果目录及同名资源目录中，便于与分析记录一并归档。</p>
+          </details>
+          <details>
+            <summary>没有网络能否使用？</summary>
+            <p>本地视频预览、抽帧、结果记录和本地报告整理可在无公网环境下使用；联网功能取决于模型服务和更新检查地址。</p>
+          </details>
+          <details>
+            <summary>自动更新失败怎么办？</summary>
+            <p>检查网络、下载地址和磁盘空间。软件会在下载失败或 SHA256 校验失败时提示错误，不会覆盖当前配置和结果。</p>
+          </details>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="wrap footer-content">
-      <span>版本说明：Traffic Light V2.1.0 稳定版</span>
-      <span>发布时间：2026-06-24</span>
+    <div class="wrap footer-grid">
+      <div>
+        <strong>Traffic Light</strong>
+        <p>视频分析、抽帧记录与报告导出的专业桌面工具。</p>
+      </div>
+      <div>
+        <span>当前版本：V2.1.0</span>
+        <span>GitHub Pages 发布端</span>
+      </div>
+      <div>
+        <a href="releases/latest/update.json">update.json</a>
+        <a href="downloads/Traffic_Light_v2.1.0.zip">下载最新版</a>
+      </div>
+      <div>
+        <span>© 2026 Traffic Light</span>
+        <span>静态官网，无后端服务。</span>
+      </div>
     </div>
   </footer>
 </body>

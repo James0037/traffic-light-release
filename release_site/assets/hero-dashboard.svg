@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="560" viewBox="0 0 920 560" role="img" aria-labelledby="title desc">
+  <title id="title">Traffic Light 工作台示意</title>
+  <desc id="desc">包含任务配置、视频预览、抽帧结果和分析输出的桌面软件界面示意图</desc>
+  <rect width="920" height="560" fill="#0b1520"/>
+  <rect x="28" y="28" width="864" height="504" fill="#edf3f8" stroke="#6f8496" stroke-width="2"/>
+  <rect x="28" y="28" width="864" height="58" fill="#132333"/>
+  <text x="54" y="64" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Traffic Light V2.1.0</text>
+  <circle cx="780" cy="57" r="13" fill="#3a1d25" stroke="#8c6a70" stroke-width="2"/>
+  <circle cx="820" cy="57" r="13" fill="#4d3f18" stroke="#a78b24" stroke-width="2"/>
+  <circle cx="860" cy="57" r="13" fill="#0f5f42" stroke="#39d58a" stroke-width="2"/>
+  <rect x="52" y="110" width="235" height="388" fill="#ffffff" stroke="#b7c7d4"/>
+  <rect x="52" y="110" width="235" height="42" fill="#1a2c3d"/>
+  <text x="70" y="138" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">任务配置</text>
+  <rect x="70" y="174" width="198" height="34" fill="#e8f2fb" stroke="#b5cada"/>
+  <rect x="70" y="224" width="198" height="34" fill="#ffffff" stroke="#b5cada"/>
+  <rect x="70" y="274" width="198" height="34" fill="#ffffff" stroke="#b5cada"/>
+  <rect x="70" y="338" width="92" height="34" fill="#0a66c2"/>
+  <rect x="176" y="338" width="92" height="34" fill="#ffffff" stroke="#b5cada"/>
+  <text x="92" y="360" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">开始分析</text>
+  <text x="198" y="360" fill="#123" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">检查配置</text>
+  <rect x="312" y="110" width="360" height="220" fill="#0f1f2d" stroke="#9fb4c6"/>
+  <rect x="332" y="130" width="320" height="160" fill="#132b3d" stroke="#2b5e7b"/>
+  <polygon points="462,168 462,252 538,210" fill="#00a7c7"/>
+  <rect x="332" y="304" width="320" height="10" fill="#273f52"/>
+  <rect x="332" y="304" width="176" height="10" fill="#0a66c2"/>
+  <text x="332" y="326" fill="#c9d8e7" font-family="Segoe UI, Arial, sans-serif" font-size="13">视频预览 · 00:00:25.875</text>
+  <rect x="700" y="110" width="164" height="220" fill="#ffffff" stroke="#b7c7d4"/>
+  <text x="718" y="140" fill="#142232" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">抽帧结果</text>
+  <rect x="720" y="160" width="54" height="38" fill="#d9edf7" stroke="#98b6c8"/>
+  <rect x="790" y="160" width="54" height="38" fill="#d9edf7" stroke="#98b6c8"/>
+  <rect x="720" y="214" width="54" height="38" fill="#d9edf7" stroke="#98b6c8"/>
+  <rect x="790" y="214" width="54" height="38" fill="#d9edf7" stroke="#98b6c8"/>
+  <rect x="720" y="274" width="124" height="32" fill="#0a66c2"/>
+  <text x="742" y="295" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">打开结果</text>
+  <rect x="312" y="354" width="552" height="144" fill="#ffffff" stroke="#b7c7d4"/>
+  <text x="332" y="384" fill="#142232" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">分析输出与任务日志</text>
+  <line x1="332" y1="408" x2="834" y2="408" stroke="#d5e0e8"/>
+  <line x1="332" y1="438" x2="780" y2="438" stroke="#d5e0e8"/>
+  <line x1="332" y1="468" x2="828" y2="468" stroke="#d5e0e8"/>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="360" viewBox="0 0 860 360" role="img" aria-labelledby="title desc">
+  <title id="title">Traffic Light 使用流程</title>
+  <desc id="desc">导入视频、预览定位、抽帧保存、执行分析、导出报告、检查更新六步流程</desc>
+  <rect width="860" height="360" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0l10 5-10 5z" fill="#55728e"/>
+    </marker>
+  </defs>
+  <g font-family="Microsoft YaHei UI, Segoe UI, Arial, sans-serif">
+    <line x1="122" y1="178" x2="738" y2="178" stroke="#55728e" stroke-width="2" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="34" y="84" width="112" height="188" fill="#f3f8fc" stroke="#c8d8e4"/>
+      <circle cx="90" cy="126" r="24" fill="#0a66c2"/><text x="83" y="134" fill="#fff" font-size="22" font-weight="800">1</text>
+      <text x="63" y="176" fill="#142232" font-size="17" font-weight="800">导入视频</text>
+      <text x="56" y="206" fill="#5f6d7a" font-size="13">本地文件</text><text x="54" y="226" fill="#5f6d7a" font-size="13">或实时流</text>
+    </g>
+    <g>
+      <rect x="166" y="84" width="112" height="188" fill="#f3f8fc" stroke="#c8d8e4"/>
+      <circle cx="222" cy="126" r="24" fill="#0a66c2"/><text x="215" y="134" fill="#fff" font-size="22" font-weight="800">2</text>
+      <text x="191" y="176" fill="#142232" font-size="17" font-weight="800">预览定位</text>
+      <text x="188" y="206" fill="#5f6d7a" font-size="13">选择时间点</text><text x="190" y="226" fill="#5f6d7a" font-size="13">或时间段</text>
+    </g>
+    <g>
+      <rect x="298" y="84" width="112" height="188" fill="#f3f8fc" stroke="#c8d8e4"/>
+      <circle cx="354" cy="126" r="24" fill="#0a66c2"/><text x="347" y="134" fill="#fff" font-size="22" font-weight="800">3</text>
+      <text x="323" y="176" fill="#142232" font-size="17" font-weight="800">抽帧保存</text>
+      <text x="321" y="206" fill="#5f6d7a" font-size="13">保存关键</text><text x="329" y="226" fill="#5f6d7a" font-size="13">画面</text>
+    </g>
+    <g>
+      <rect x="430" y="84" width="112" height="188" fill="#f3f8fc" stroke="#c8d8e4"/>
+      <circle cx="486" cy="126" r="24" fill="#0a66c2"/><text x="479" y="134" fill="#fff" font-size="22" font-weight="800">4</text>
+      <text x="455" y="176" fill="#142232" font-size="17" font-weight="800">执行分析</text>
+      <text x="455" y="206" fill="#5f6d7a" font-size="13">记录结果</text><text x="456" y="226" fill="#5f6d7a" font-size="13">与状态</text>
+    </g>
+    <g>
+      <rect x="562" y="84" width="112" height="188" fill="#f3f8fc" stroke="#c8d8e4"/>
+      <circle cx="618" cy="126" r="24" fill="#0a66c2"/><text x="611" y="134" fill="#fff" font-size="22" font-weight="800">5</text>
+      <text x="587" y="176" fill="#142232" font-size="17" font-weight="800">导出报告</text>
+      <text x="584" y="206" fill="#5f6d7a" font-size="13">生成图文</text><text x="594" y="226" fill="#5f6d7a" font-size="13">记录</text>
+    </g>
+    <g>
+      <rect x="694" y="84" width="132" height="188" fill="#f3f8fc" stroke="#c8d8e4"/>
+      <circle cx="760" cy="126" r="24" fill="#0a66c2"/><text x="753" y="134" fill="#fff" font-size="22" font-weight="800">6</text>
+      <text x="729" y="176" fill="#142232" font-size="17" font-weight="800">检查更新</text>
+      <text x="721" y="206" fill="#5f6d7a" font-size="13">下载并校验</text><text x="738" y="226" fill="#5f6d7a" font-size="13">版本包</text>
+    </g>
+  </g>
+</svg>
