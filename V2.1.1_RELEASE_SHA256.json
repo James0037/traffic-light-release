@@ -1,0 +1,44 @@
+{
+  "app": "Traffic Light",
+  "version": "2.1.1",
+  "version_code": 211,
+  "generated_at": "2026-06-24 15:01:38 +08:00",
+  "files": [
+    {
+      "name": "Traffic Light_V2.1.exe",
+      "relative_path": "dist\\Traffic Light_V2.1.exe",
+      "size": 13645185,
+      "sha256": "b2a5fe896229566718c674484795e382725e135cb3bcbc677a4e4deb612815b1"
+    },
+    {
+      "name": "Traffic Light_V2.1_Setup.exe",
+      "relative_path": "dist\\Traffic Light_V2.1_Setup.exe",
+      "size": 69641426,
+      "sha256": "a930a89cb5fcb5a9506c1503af5c70ae9c1f7f7ff12c3c76eecff7c1045fa66f"
+    },
+    {
+      "name": "Traffic Light_V2.1_免安装测试版.exe",
+      "relative_path": "dist\\Traffic Light_V2.1_免安装测试版.exe",
+      "size": 50547750,
+      "sha256": "8fb70edfae0fd594999c5bad496cbd77e334118c67b4c1000b4f127107dd94b9"
+    },
+    {
+      "name": "卸载Traffic Light_V2.1.exe",
+      "relative_path": "dist\\卸载Traffic Light_V2.1.exe",
+      "size": 9446656,
+      "sha256": "954ea3ce78de603eabfc6f4a77d9a804eaf4588a949b88ce1bdd3bfc32ec4dba"
+    },
+    {
+      "name": "Traffic_Light_v2.1.1.zip",
+      "relative_path": "release\\Traffic_Light_v2.1.1.zip",
+      "size": 69319871,
+      "sha256": "efcae72c6ea5707999762e77851e8328341338454524c0eb01f8c870ef8595dc"
+    },
+    {
+      "name": "Traffic_Light_v2.1.1.zip",
+      "relative_path": "release_site\\downloads\\Traffic_Light_v2.1.1.zip",
+      "size": 69319871,
+      "sha256": "efcae72c6ea5707999762e77851e8328341338454524c0eb01f8c870ef8595dc"
+    }
+  ]
+}

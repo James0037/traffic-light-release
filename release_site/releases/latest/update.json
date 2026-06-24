@@ -1,20 +1,19 @@
 {
   "app_name": "Traffic Light",
-  "latest_version": "2.1.0",
-  "version_code": 210,
+  "latest_version": "2.1.1",
+  "version_code": 211,
   "release_date": "2026-06-24",
   "channel": "stable",
   "minimum_supported_version": "2.0.0",
   "force_update": false,
   "package_type": "zip",
-  "download_url": "https://james0037.github.io/traffic-light-release/downloads/Traffic_Light_v2.1.0.zip",
-  "sha256": "0f383ffb19828ebc5dca60cf2a394ecedc57ffcff2781bb1b9e7888e432b7bee",
-  "file_size": 69314183,
+  "download_url": "https://james0037.github.io/traffic-light-release/downloads/Traffic_Light_v2.1.1.zip",
+  "sha256": "efcae72c6ea5707999762e77851e8328341338454524c0eb01f8c870ef8595dc",
+  "file_size": 69319871,
   "release_notes": [
-    "新增自动检查更新功能",
-    "新增公网官网发布端",
-    "新增报告抽帧图片导出功能",
-    "优化 FFmpeg 或其他抽帧方案"
+    "修复顶部检查更新按钮文字显示不完整的问题",
+    "优化部分按钮和中文文字显示适配",
+    "增强高 DPI 缩放下的界面显示稳定性"
   ],
   "homepage_url": "https://james0037.github.io/traffic-light-release/",
   "manual_download_url": "https://james0037.github.io/traffic-light-release/downloads/"
